@@ -479,7 +479,7 @@ function App() {
                 base: "12px",
                 md: "16px",
               }}
-              color="gray.800"
+              
               _dark={{
                 color: "white",
               }}
@@ -492,7 +492,7 @@ function App() {
                 <Link textTransform="uppercase">Pre-Sale FAQS</Link>
                 <Link textTransform="uppercase">Submit a ticket</Link>
               </Flex>
-              <Flex justify="start" direction="column">
+              <Flex justify="start" color="white" direction="column">
                 <Link textTransform="uppercase">Services</Link>
                 <Link textTransform="uppercase">Theme Tweak</Link>
               </Flex>
@@ -540,7 +540,7 @@ function App() {
             <HStack justify="center">
               <Link>
                 <Icon
-                  color="gray.800"
+                  color="white"
                   _dark={{
                     color: "white",
                   }}
@@ -551,7 +551,7 @@ function App() {
               </Link>
               <Link>
                 <Icon
-                  color="gray.800"
+                  color="white"
                   _dark={{
                     color: "white",
                   }}
