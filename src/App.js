@@ -35,7 +35,7 @@ function App() {
   const btnRef = React.useRef();
 
   return (
-    <Box bg="black">
+    <Box bg="black" color="white">
      <Box
         position="sticky"
         top="0"
