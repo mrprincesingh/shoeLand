@@ -35,7 +35,7 @@ function App() {
   const btnRef = React.useRef();
 
   return (
-    <Box bg="black" color="white">
+    <Box bg="black" color="white" >
      <Box
         position="sticky"
         top="0"
@@ -565,7 +565,9 @@ function App() {
                   }}
                   h="20px"
                   w="20px"
+                  color= "white"
                   as={BsInstagram}
+                  
                 />
               </Link>
               <Link>
@@ -575,7 +577,9 @@ function App() {
                   }}
                   h="20px"
                   w="20px"
+                  color= "white"
                   as={BsLinkedin}
+                   
                 />
               </Link>
             </HStack>
