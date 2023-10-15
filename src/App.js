@@ -459,8 +459,8 @@ function App() {
         </Container>
       </Box>
 
-      <footer>
-        <Box bg="black">
+      <footer  color="white">
+        <Box bg="black"  color="white">
           <Stack
             direction={{
               base: "column",
@@ -471,6 +471,7 @@ function App() {
             p={10}
           >
             <HStack
+             color="white"
               alignItems="start"
               flex={1}
               justify="space-around"
@@ -487,7 +488,7 @@ function App() {
                 md: "left",
               }}
             >
-              <Flex justify="start" direction="column">
+              <Flex  color="white" justify="start" direction="column">
                 <Link textTransform="uppercase">Pre-Sale FAQS</Link>
                 <Link textTransform="uppercase">Submit a ticket</Link>
               </Flex>
@@ -497,6 +498,7 @@ function App() {
               </Flex>
             </HStack>
             <HStack
+             color="white"
               alignItems="start"
               flex={1}
               justify="space-around"
@@ -504,7 +506,7 @@ function App() {
                 base: "12px",
                 md: "16px",
               }}
-              color="gray.800"
+          
               _dark={{
                 color: "white",
               }}
